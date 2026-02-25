@@ -1,0 +1,55 @@
+/**
+ * Design Tokens — No7 Analytics
+ * Single source of truth for all design values.
+ * Changing a token updates the entire UI automatically.
+ */
+:root {
+  --mint:       #00c896;
+  --mint-dark:  #00a87e;
+  --mint-light: #00e6ac;
+  --mint-bg:    #f0fdf8;
+  --mint-card:  #e8faf4;
+  --mint-soft:  rgba(0,200,150,0.08);
+  --mint-soft2: rgba(0,200,150,0.16);
+
+  --white: #ffffff;
+  --bg:    #f4f8f6;
+
+  --border:  #e2ece8;
+  --border2: #c8ddd5;
+
+  --text:  #1a2e26;
+  --text2: #4a6b5e;
+  --text3: #8aada0;
+
+  --red:      #f05050;
+  --red-bg:   rgba(240,80,80,0.08);
+  --amber:    #f5a623;
+  --amber-bg: rgba(245,166,35,0.10);
+  --blue:     #4a90d9;
+  --blue-bg:  rgba(74,144,217,0.10);
+  --purple:   #8b5cf6;
+  --purple-bg:rgba(139,92,246,0.10);
+
+  --font-sans: 'Cabinet Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --radius:    12px;
+  --radius-sm: 8px;
+  --radius-xs: 6px;
+
+  --shadow:    0 1px 4px rgba(0,60,40,0.06),0 4px 16px rgba(0,60,40,0.04);
+  --shadow-md: 0 2px 8px rgba(0,60,40,0.10),0 8px 32px rgba(0,60,40,0.06);
+  --shadow-lg: 0 8px 24px rgba(0,60,40,0.12);
+
+  --nav-h:     64px;
+  --sidebar-w: 220px;
+  --safe-b:    env(safe-area-inset-bottom,0px);
+  --ease-spring: cubic-bezier(0.16,1,0.3,1);
+}
+
+/* UPGRADE HOOK: Dark mode
+[data-theme="dark"] {
+  --bg: #0f1c17; --white: #1a2e25; --border: #2a4038;
+  --text: #e8f5f0; --text2: #a0c4b8; --text3: #5a8070;
+} */

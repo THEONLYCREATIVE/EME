@@ -1,0 +1,11 @@
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fade-up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes scale-in{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+.success-overlay{position:fixed;inset:0;background:rgba(0,200,150,.1);display:flex;align-items:center;justify-content:center;z-index:300;opacity:0;pointer-events:none;transition:opacity .3s}
+.success-overlay.show{opacity:1}
+.success-burst{width:110px;height:110px;background:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2.8rem;box-shadow:0 8px 40px rgba(0,200,150,.28);transform:scale(0);transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.success-overlay.show .success-burst{transform:scale(1)}
+.spinner{width:18px;height:18px;border:2px solid var(--border);border-top-color:var(--mint);border-radius:50%;animation:spin .7s linear infinite}
+.view.active{animation:fade-up .25s ease both}

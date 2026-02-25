@@ -1,0 +1,8 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;font-family:var(--font-sans);font-size:16px;color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased}
+input,button,select,textarea{font-family:inherit;font-size:inherit}
+button{cursor:pointer} img{max-width:100%;display:block} a{color:var(--mint-dark);text-decoration:none}
+::-webkit-scrollbar{width:4px;height:4px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:var(--border-mid);border-radius:4px}
+h1,h2,h3,h4{font-weight:800;line-height:1.2}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.mono{font-family:var(--font-mono)}

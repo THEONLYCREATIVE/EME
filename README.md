@@ -67,6 +67,15 @@ no7-analytics/
 
 ---
 
+
+## 🧭 Codebase Reality Check
+
+This repo currently contains a live monolith (`index.html`) plus modular tracks (`js/` and `src/`).
+
+If you want to know exactly where to edit for design, features, and integration fixes, read: `docs/REPO-AUDIT.md`.
+
+---
+
 ## ✨ Features
 
 ### Entry View
